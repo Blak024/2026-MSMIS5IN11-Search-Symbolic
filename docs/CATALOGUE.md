@@ -256,7 +256,7 @@ Dans un réseau booléen, chaque gène est actif ou inactif selon une fonction l
 **Difficulté : 3/5** · Mots-clés : `ontologies`, `OWL`, `HPO`, `similarité sémantique`
 
 Une maladie rare se reconnaît à une combinaison de signes, rarement tous présents. Le groupe exploite les ontologies publiques des phénotypes et des maladies rares pour classer les diagnostics compatibles avec une liste de signes observés, et explique chaque classement.
-- **MVP** : Human Phenotype Ontology + annotations maladies-phénotypes (Orphanet) → similarité sémantique (information content, mesure de Resnik) entre profil patient et profils de maladies, classement des candidats.
+- **MVP** : Human Phenotype Ontology + annotations maladies-phénotypes Orphanet, prises dans la distribution HPO (fichier `phenotype.hpoa`, libre ; la distribution Orphanet complète demande un enregistrement) → similarité sémantique (information content, mesure de Resnik) entre profil patient et profils de maladies, classement des candidats.
 - **Réussite** : patients simulés (sous-ensembles bruités de phénotypes connus) : rang de la bonne maladie, comparaison avec un simple recouvrement de mots-clés ; explication par phénotypes partagés.
 - **Extensions** : raisonnement OWL sur la hiérarchie, signes absents, question suivante la plus discriminante.
 - **Faisabilité** : ontologies téléchargeables librement (`pronto`, `owlready2`). **Différenciation** : les systèmes experts à règles (épaule, diabète) ont déjà été réalisés ; ici, le verrou est le **raisonnement sur une ontologie de grande taille** et la similarité sémantique. Plan B : un sous-domaine de quelques centaines de maladies.
