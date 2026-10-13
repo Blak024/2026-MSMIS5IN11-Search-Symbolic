@@ -2,7 +2,22 @@
 
 Cette annexe évite de reproposer sous un autre nom un projet déjà réalisé. Elle recense des **thèmes**, sans les personnes ni les évaluations. Les sujets ci-dessous ne font pas partie du catalogue actif 2026-2027.
 
-## Thèmes santé déjà réalisés (EPF, ECE, EPITA)
+## Filière Ingénierie et santé (MSMIS5IN10 / MSMIS5IN11) — partie exploratoire et symbolique
+
+| Promotion | Thème réalisé | Technique centrale |
+|---|---|---|
+| 2023-2024 | Dossiers médicaux sur blockchain | Smart contracts |
+| 2023-2024 | Systèmes experts (pathologies de l'épaule, diabète) | Règles, programmation logique |
+| 2023-2024 | Maintenance de vérité | TMS |
+| 2023-2024 | Menus diététiques (régime de Stigler) | Programmation par contraintes, Z3 |
+| 2024-2025 | Effet des médicaments | Maintenance de vérité (TMS) |
+| 2024-2025 | Programmation logique appliquée à la santé | Prolog |
+| 2024-2025 | Planification du personnel | Programmation par contraintes |
+| 2024-2025 | Cancer du sein | Métaheuristiques |
+| 2024-2025 | Menu diététique sous contraintes | Programmation par contraintes |
+| 2025-2026 | Diagnostic médical (contrôle continu) | Agent rationnel, A*, algorithme génétique, Z3 |
+
+## Thèmes santé déjà réalisés dans les autres cursus (EPF, ECE, EPITA)
 
 | Thème réalisé | Technique centrale |
 |---|---|
